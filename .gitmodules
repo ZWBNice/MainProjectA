@@ -1,0 +1,6 @@
+[submodule "Modularization/HomeModule"]
+	path = Modularization/HomeModule
+	url = https://github.com/ZWBNice/HomeModule.git
+[submodule "Modularization/NetCore"]
+	path = Modularization/NetCore
+	url = https://github.com/ZWBNice/NetCore.git
