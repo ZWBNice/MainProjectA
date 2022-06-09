@@ -1,0 +1,67 @@
+platform:ios,'8.0'
+inhibit_all_warnings!
+use_frameworks!
+
+workspace 'Modularization.xcworkspace'
+
+########################################  dependency
+
+# workspace
+def workspace_pods
+    pod 'ObjectMapper', '~> 3.3.0'
+    pod 'SwiftyJSON'
+end
+
+# main project dependency
+def project_only_pods
+    
+    pod 'SnapKit'
+    pod 'Kingfisher'
+    pod 'MJRefresh'
+    pod 'MJExtension'
+    pod 'SVProgressHUD', '2.0.4'
+    pod 'Then'
+end
+
+# network layer dependency
+def network_layer_pods
+    
+    pod 'Moya'
+end
+
+######################################## main project
+
+target 'Modularization' do
+
+    workspace_pods
+    project_only_pods
+    network_layer_pods
+
+    target 'ModularizationTests' do
+        inherit! :search_paths
+    end
+
+    target 'ModularizationUITests' do
+        inherit! :search_paths
+    end
+end
+
+######################################## Library
+
+
+target 'NetCore' do
+    project 'NetCore/NetCore.xcodeproj'
+    network_layer_pods
+    workspace_pods
+end
+
+
+
+target 'HomeModule' do
+    project 'HomeModule/HomeModule.xcodeproj'
+    project_only_pods
+    
+end
+
+
+

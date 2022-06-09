@@ -1,0 +1,58 @@
+PODS:
+  - Alamofire (4.9.1)
+  - Kingfisher (4.10.1)
+  - MJExtension (3.2.4)
+  - MJRefresh (3.5.0)
+  - Moya (13.0.1):
+    - Moya/Core (= 13.0.1)
+  - Moya/Core (13.0.1):
+    - Alamofire (~> 4.1)
+    - Result (~> 4.1)
+  - ObjectMapper (3.3.0)
+  - Result (4.1.0)
+  - SnapKit (4.0.1)
+  - SVProgressHUD (2.0.4)
+  - SwiftyJSON (5.0.0)
+  - Then (2.7.0)
+
+DEPENDENCIES:
+  - Kingfisher
+  - MJExtension
+  - MJRefresh
+  - Moya
+  - ObjectMapper (~> 3.3.0)
+  - SnapKit
+  - SVProgressHUD (= 2.0.4)
+  - SwiftyJSON
+  - Then
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Kingfisher
+    - MJExtension
+    - MJRefresh
+    - Moya
+    - ObjectMapper
+    - Result
+    - SnapKit
+    - SVProgressHUD
+    - SwiftyJSON
+    - Then
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  Kingfisher: c148cd7b47ebde9989f6bc7c27dcaa79d81279a0
+  MJExtension: 88e0900751b6cac8de1cf724ca9838a0b28d5acb
+  MJRefresh: 6afc955813966afb08305477dd7a0d9ad5e79a16
+  Moya: f4a4b80ff2f8a4ffc208dfb31cd91636622fee6e
+  ObjectMapper: b612bf8c8e99c4dc0bb6013a51f7c27966ed5da9
+  Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
+  SnapKit: 0de968a9fec17499afa29683b05d0c775b6d1c29
+  SVProgressHUD: bfde85ed6c573ea802b9cb37894ed9b629034f1b
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+  Then: acfe0be7e98221c6204e12f8161459606d5d822d
+
+PODFILE CHECKSUM: 0ae0aebc1e530cef597bc6548f5e74ac8f9055bb
+
+COCOAPODS: 1.11.3
